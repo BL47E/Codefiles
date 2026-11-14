@@ -38,6 +38,7 @@ setup-pre-commit
 setup-ts-deep-modules
 skill-creator
 slack-gif-creator
+software-factory
 tdd
 teach
 theme-factory
