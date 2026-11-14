@@ -1,0 +1,15 @@
+# Secrets — never commit (service.json contains a password)
+service.json
+auth.json
+*.db
+*.db-shm
+*.db-wal
+
+# macOS noise
+.DS_Store
+
+# Third-party skill clones — re-fetchable via update-skills.sh
+vendor/
+
+# Logs
+*.log
