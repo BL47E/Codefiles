@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-14T14:22:07Z",
+  "generated": "2026-11-23T19:35:58Z",
   "what": "Provenance for every skill in skills/: which upstream repo and path it came from, pinned at the installed commit.",
   "how_to_update": "Pull each repo listed in sources to its local_clone (git pull), re-run the installer that symlinks skills into the config dir (on the original machine: node ~/.t3/skills-sources/update-skills.js), then run sync.sh in this repo and commit the result.",
   "sources": {
-    "anthropics-skills": {"repo": "https://github.com/anthropics/skills.git", "branch": "main", "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579", "commit_date": "2026-11-06T14:32:28-08:00", "local_clone": "/Users/blaze/.t3/skills-sources/anthropics-skills"},
-    "mattpocock-skills": {"repo": "https://github.com/mattpocock/skills.git", "branch": "main", "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa", "commit_date": "2026-11-12T08:42:38Z", "local_clone": "/Users/blaze/.t3/skills-sources/mattpocock-skills"}
+    "anthropics-skills": {"repo": "https://github.com/anthropics/skills.git", "branch": "main", "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba", "commit_date": "2026-11-16T09:22:47-05:00", "local_clone": "~/.t3/skills-sources/anthropics-skills"},
+    "mattpocock-skills": {"repo": "https://github.com/mattpocock/skills.git", "branch": "main", "commit": "abeeaf95660ba9e8b7c753eb38f441ca707a8823", "commit_date": "2026-11-19T13:34:58Z", "local_clone": "~/.t3/skills-sources/mattpocock-skills"}
   },
   "skills": {
     "academy-guide": {"source": "anthropics-skills", "path": "skills/academy-guide"},
